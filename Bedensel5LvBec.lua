@@ -55,11 +55,11 @@ quest Bedensel5LvBec begin
 --		say_title ( Treinamento de guerra física selecionado." ) 
 --		say ( "você Hoþgel!" ) 
 		if not pc . is_clear_skill_group ( ) then 
---		say ( ""4 pontos de habilidade para escolher tirar aulas " ) 
---		say ( "win. Você pode ganhar esses resultados para qualquer" ) 
---		say ( "Você pode usá-lo para melhorar seu." ) 
+--		say ( "4 pontos de habilidade para escolher treinar suas habilidades" ) 
+--		say ( "Pode ganhar esses resultados para qualquer" ) 
+--		say ( "Pode usá-lo para melhorar." ) 
 --		say_title ( "informação:" ) 
---		say_reward ( "4 você ganhou pontos de habilidade." ) 
+--		say_reward ( "ganhou 4 pontos de habilidade." ) 
 --		say ( "" ) 
 		pc . set_skill_level ( 1 , 0 ) 
 		pc . set_skill_level ( 2 , 0 ) 
@@ -121,8 +121,8 @@ quest Bedensel5LvBec begin
 		horse . advance ( )  
 
 		else 
---		say_reward ( "Quando você escolhe um novo curso," ) 
---		say_reward ( "você não terá mais pontos de experiência." ) 
+--		say_reward ( "Quando escolhe um novo curso," ) 
+--		say_reward ( "Não terá mais pontos de abilidades." ) 
 --		say ( "" ) 
 		end 
 --		clear_letter ( ) 
