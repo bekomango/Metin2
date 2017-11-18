@@ -6,39 +6,39 @@ quest Bedensel5LvBec begin
 		when info or button begin
 		local pc_job = pc . get_job ( ) 
 		if pc_job ~= 0 then 
---		say_title ( "Educação incorreta " ) 
+--		say_title ( "Treinamento incorrecto " ) 
 --		say ( "" ) 
 --		say ( "Peço desculpa." ) 
 --		say ( "Somente os Guerreiros podem escolher Arte Corpo." ) 
 --		say ( "" ) 
 --		say ( "" ) 
 		if pc_job == 0 then 
---		say_reward ( "Um Guerreiro, Guerreiro Mental " ) 
+--		say_reward ( "Guerreiro, Guerreiro Mental " ) 
 --		say_reward ( "ou Arte Corpo " ) 
 --		say_reward ( "Pode escolher." ) 
 		elseif pc_job == 1 then 
---		say_reward ( "Bir Ninja, Yakin Dövüþ veya" ) 
---		say_reward ( "Uzak Dövüþ eðitimini" ) 
---		say_reward ( "seçebilir." ) 
+--		say_reward ( "Ninja Arte Adagas" ) 
+--		say_reward ( "Ou Arte Arco" ) 
+--		say_reward ( "Pode escolher." ) 
 		elseif pc_job == 2 then 
---		say_reward ( "Bir Sura, Büyülü Silah" ) 
---		say_reward ( "veya Kara Büyü eðitimini" ) 
---		say_reward ( "seçebilir." ) 
+--		say_reward ( "Sura Arte Magia " ) 
+--		say_reward ( "Ou Arte Armas" ) 
+--		say_reward ( "Pode escolher.." ) 
 		elseif pc_job == 3 then 
---		say_reward ( "Bir Þaman, Ejderha Gücü eðitimini" ) 
---		say_reward ( "veya Ýyileþtirme eðitimini" ) 
---		say_reward ( "seçebilir." ) 
+--		say_reward ( "Shaman Arte Dragão" ) 
+--		say_reward ( "Ou Arte Cura" ) 
+--		say_reward ( "Pode escolher." ) 
 		end 
 --		say ( "" ) 
 		return 
 		end 
---		say_title ( "Bedensel Savaþ eðitimi" ) 
+--		say_title ( "Treinamento de Gerreiro" ) 
 --		say ( "Bedensel savaþ eðitimi hýzlý savaþma eðitimi ve" ) 
 --		say ( "metodlarýný, ayrýca geliþmiþ temel saldýrý " ) 
 --		say ( "tiplerini içerir." ) 
 --		say_reward ( "Gereksinim: Seviye 5 ve üstü bir savaþçý olmak" ) 
 --		say ( "" ) 
---		local s = select ( "Baþla" , "Daha sonra" ) 
+--		local s = select ( "começam a" , "Então" ) 
 		if 2 == s then 
 		return 
 		end 
